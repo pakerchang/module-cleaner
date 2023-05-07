@@ -1,0 +1,30 @@
+{
+  "name": "module-cleaner",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./src/index.js",
+  "bin": {
+    "module-cleaner": "./src/bin/index.js"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-esm ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "Paker Zhang",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "prettier": "^2.8.8"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "global": "^4.4.0",
+    "inquirer": "^9.2.2",
+    "nanospinner": "^1.1.0"
+  }
+}
