@@ -50,7 +50,7 @@ function main() {
       message: "Delete all node_modules folder? ",
     })
     .then((confirm) => {
-      if (!confirm) {
+      if (!confirm.Confirm) {
         return;
       } else {
         deleteTarget(nodeModulePaths);
@@ -59,4 +59,4 @@ function main() {
     });
 }
 
-export default main();
+export default main;
