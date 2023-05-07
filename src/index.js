@@ -22,7 +22,7 @@ function findNodeModulesDirectories(directoryPath, results) {
 
 function deleteTarget(filePaths) {
   for (const filePath of filePaths) {
-    fs.rmdirSync(
+    fs.rmSync(
       filePath,
       { recursive: true },
       (err) => err && console.log(chalk.redBright(`Error: ${err}`))
