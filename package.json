@@ -1,7 +1,7 @@
 {
-  "name": "module-cleaner",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@pakerzhang/module-cleaner",
+  "version": "1.0.1",
+  "description": "Clean node_modules",
   "type": "module",
   "main": "./src/index.js",
   "bin": {
@@ -11,12 +11,19 @@
     "node": ">=14"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "ts-node-esm ./src/index.ts"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "src"
+  ],
   "keywords": [],
   "author": "Paker Zhang",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:pakerchang/module-cleaner.git"
+  },
+  "homepage": "https://github.com/pakerchang/module-cleaner",
   "devDependencies": {
     "eslint": "^8.40.0",
     "prettier": "^2.8.8"
