@@ -1,6 +1,6 @@
 {
   "name": "@pakerzhang/module-cleaner",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Clean node_modules",
   "main": "./src/index.js",
   "bin": {
@@ -15,7 +15,14 @@
   "files": [
     "src"
   ],
-  "keywords": [],
+  "keywords": [
+    "folder cleaner",
+    "fs",
+    "nodejs",
+    "node",
+    "script",
+    "node_modules"
+  ],
   "author": "Paker Zhang",
   "license": "MIT",
   "repository": {
