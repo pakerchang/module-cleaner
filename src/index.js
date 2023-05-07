@@ -1,7 +1,7 @@
-import fs from "fs";
-import path from "path";
-import inquirer from "inquirer";
-import chalk from "chalk";
+const fs = require("fs");
+const path = require("path");
+const inquirer = require("inquirer");
+const chalk = require("chalk");
 
 const executeRoot = process.cwd();
 
@@ -59,4 +59,4 @@ function main() {
     });
 }
 
-export default main;
+module.exports = main;
